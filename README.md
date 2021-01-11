@@ -4,8 +4,8 @@
 <html>
   <body>
     <h2>Home work for week1</h2>
-    <a href="https://madyannassar.github.io/HYF-Module-HTMLCSSGIT/Week1/Command Line Interface.txt"> Command Line Interface </a>
+    <a href="http://madyannassar.github.io/HYF-Module-HTMLCSSGIT/Week1/Command Line Interface.txt"> Command Line Interface </a>
     <br>
-    <a href="https://madyannassar.github.io/HYF-Module-HTMLCSSGIT/Week1/digital_resume.html"> Digital Resume </a>
+    <a href="http://madyannassar.github.io/HYF-Module-HTMLCSSGIT/Week1/digital_resume.html"> Digital Resume </a>
   </body>
   </html>

@@ -138,8 +138,10 @@ p{
     color: gray;
     margin-top: 10PX;
 }
-#footer_id{
-    background-color: #ecc0c0;
+footer{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #974c4c;
      text-align: center;
       padding: 10px;
       border-radius: 5%;

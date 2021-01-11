@@ -1,6 +1,5 @@
 # HYF-Module-HTMLCSSGIT
 
-<!DOCTYPE html>
 <html>
   <body>
     <h2>Home work for week1</h2>

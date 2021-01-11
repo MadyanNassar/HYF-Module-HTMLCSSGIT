@@ -47,16 +47,19 @@ word-wrap: break-word;
 padding: 50px;
 border-radius: 5%;
 box-shadow: 10px 10px 10px rgb(134, 130, 130);
-background-color: #ecdbdb;
+background-color: #777373;
+font-weight: bold;
+color: black;
 }
 .contact_info{
     margin-top: 20px;
-    background-color: cadetblue;
     padding: 50px;
     border-radius: 5%;
 box-shadow: 10px 10px 10px rgb(134, 130, 130);
-background-color: #ecdbdb;
+background-color: #777373;
 line-height: 2em;
+font-weight: bold;
+
 
 }
 .info{
@@ -65,7 +68,7 @@ float: right;
 border: 1px solid rgb(14, 13, 13);
 border-radius: 5%;
 box-shadow: 10px 10px 10px rgb(134, 130, 130);
-background-color: #ecdbdb;
+background-color: #3e3939;
 }
 .sec{
     margin-top: 40px;
@@ -113,22 +116,22 @@ background-color: #ecdbdb;
 .skill1 .one{
     width:90%;
     height: 5px;
-    background-color: #4b4a48;
+    background-color: #4d3bec;
 }
 .skill1 .two{
     width:40%;
     height: 5px;
-    background-color: #4b4a48;
+    background-color:#4d3bec;
 }
 .skill1 .three{
     width:70%;
     height: 5px;
-    background-color: #4b4a48;
+    background-color: #4d3bec;
 }
 .skill .four{
     width:50% ;
     height: 5px;
-    background-color: #4b4a48;
+    background-color: #4d3bec;
 }
 
 p{

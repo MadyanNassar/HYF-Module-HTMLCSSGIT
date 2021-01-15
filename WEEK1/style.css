@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     background-image: url("images/bkgrnd.png");
     max-width: 90%;
@@ -9,6 +10,7 @@ body{
     margin: 50px auto;
     background-color:  rgb(211, 211, 233);
 }
+
 header{
 margin-bottom: 30px;
 display: flex;
@@ -22,6 +24,7 @@ h1,h2{
     text-align: left;
     padding-left: 30px;
 }
+
 p{
 color: black;
 margin-top: 10PX;
@@ -37,16 +40,19 @@ font-weight: bold;
 color: black;
 text-align: left;
 }
+
 .standout{
-    box-shadow: 10px 10px 10px rgb(134, 130, 130);
+box-shadow: 10px 10px 10px rgb(134, 130, 130);
 
 }
 #img{
     border-radius: 50%;
 }
+
 a{
     text-decoration: none;
     }
+
 a:hover {
     transition: 0.4s ease;
     border-radius: 10%;
@@ -54,6 +60,7 @@ a:hover {
     transition: color 0.5s;
     padding: 5px;
     }
+
 ul{
     list-style: none;
     }
@@ -72,29 +79,35 @@ background-color: #b5b1b1;
 line-height: 2em;
 font-weight: bold;
 }
+
 .info{
 width: 75%;
 float: right;
 border: 1px solid rgb(14, 13, 13);
 background-color: #b5b1b1;
 }
+
 section{
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
 .details{
     padding-top: 0px;
     padding-bottom: 20px;
     text-align: left;
 }
+
 .exp_edu{
     margin-top: 50px;
     margin-bottom: 50px;
     border-bottom: 1px dotted #fff;
 }
+
 .exp_edu:last-child{
     border: none;
 }
+
 .left_title{
     width: 22%;
     float: left;
@@ -104,6 +117,7 @@ section{
     vertical-align: middle;
     line-height: 100px;
 }
+
  h2 span{
     color: #4d3bec;
     padding-right: 5px;
@@ -114,25 +128,23 @@ small{
     padding: 20px;
     text-align: center;
 }
+
 .clr{
     clear: both;
     margin-bottom: 40px;
 }
+
 progress{
     width: 100%;
 }
+
 .skill{
     width:40%;
     float: left;
     margin-left: 50px;
     padding: 10px;
 }
-.skill1{
-    width: 100%;
-    height: 5px;
-    background-color: gray;
-    margin: 30px 10px;
-}
+
 footer{
     font-size: 20px;
     font-weight: bold;

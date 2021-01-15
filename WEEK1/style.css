@@ -11,6 +11,10 @@ body{
 }
 header{
 margin-bottom: 30px;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+align-items: flex-start;
 }
 
 h1,h2{
@@ -53,11 +57,7 @@ a:hover {
 ul{
     list-style: none;
     }
-.sec_info {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-}
+
 img{
     width: 200px;
     height: 300px;

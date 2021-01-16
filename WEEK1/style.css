@@ -45,9 +45,7 @@ text-align: left;
 box-shadow: 10px 10px 10px rgb(134, 130, 130);
 
 }
-#img{
-    border-radius: 50%;
-}
+
 
 a{
     text-decoration: none;
@@ -69,6 +67,7 @@ img{
     width: 200px;
     height: 300px;
     margin-left: 90px;
+    border-radius: 50%;
 }
 
 .contact_info{

@@ -11,6 +11,9 @@ body{
 }
 header{
 margin-bottom: 30px;
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
 }
 h1,h2{
     font-family: cursive;
@@ -68,11 +71,6 @@ ul{
 .standout{
         box-shadow: 10px 10px 10px rgb(134, 130, 130);
     }
-.sec_info {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-}
 .contact_info{
     margin-top: 20px;
     padding: 50px;

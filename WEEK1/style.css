@@ -1,19 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+/* add some styling to main elements*/
 body{
     background-image: url("images/bkgrnd.png");
     max-width: 90%;
     font-family: Courier, monospace;
     margin: 50px auto;
     background-color:  rgb(211, 211, 233);
-}
-header{
-margin-bottom: 30px;
-display: flex;
-justify-content: space-around;
-align-items: flex-start;
 }
 h1,h2{
     font-family: cursive;
@@ -68,27 +64,43 @@ ul{
         clear: both;
         margin-bottom: 40px;
     }
+
+/*styling the header with flex*/
+header{
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        }
+
 .standout{
         box-shadow: 10px 10px 10px rgb(134, 130, 130);
     }
+
+    /*contact info style*/
 .contact_info{
-    margin-top: 20px;
-    padding: 50px;
-    border-radius: 5%;
+margin-top: 20px;
+padding: 50px;
+border-radius: 5%;
 background-color: #b5b1b1;
 line-height: 2em;
 font-weight: bold;
 }
+
+section{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*styling the info by floating it to right*/
 .info{
 width: 75%;
 float: right;
 border: 1px solid rgb(14, 13, 13);
 background-color: #b5b1b1;
 }
-section{
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
+
+/*styling the titles (EDUCATION,EXPERIENCE and SKILLS by floating them to left*/
 .left_title{
     width: 22%;
     float: left;
@@ -99,19 +111,23 @@ section{
     vertical-align: middle;
     line-height: 100px;
 }
+/*styling the EDUCATION and EXPERIENCE fields */
 .exp_edu{
     margin-top: 50px;
     margin-bottom: 50px;
     border-bottom: 1px dotted #fff;
 }
+/*remove last border from last child*/
 .exp_edu:last-child{
     border: none;
 }
+/*EXPERIENCE explanation*/
 .details{
     padding-top: 0px;
     padding-bottom: 20px;
     text-align: left;
 }
+/*SKILL explanation*/
 .skill{
     width:40%;
     float: left;

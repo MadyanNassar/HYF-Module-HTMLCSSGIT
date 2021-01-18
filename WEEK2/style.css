@@ -1,1 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
+/* global styling */
+*{
+    margin: 0;
+    padding: 0;
+}
 
+body{
+    background: linear-gradient(to bottom, rgb(114, 97, 97), rgb(27, 25, 25));
+    font-family: 'Oregano', cursive;
+
+}
+
+/* styling common elements*/
+section{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+h1, h2, h3{
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    color:rgb(228, 171, 171);
+}
+h3{
+    color: red;
+}
+p{
+    text-align: center;
+}
+li {
+    list-style: none;
+    overflow: auto;
+}
+.grid-item{
+    margin: 10px;
+    padding: 10px;
+    width: 33%;
+    height: 600px;
+    border: 1px solid red;
+    background-color: white;
+}
+img{
+    width: 95%;
+    border: 1px solid #dce0e3;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px dashed blue;
+    border-radius: 5px;
+}
+img:hover{
+    border: none;
+    transform: rotate(10deg); /*https://www.w3schools.com/cssref/css3_pr_transform.asp*/
+}
+
+
+/* floating section */
+#grid-floats .grid-item { 
+    float: left;
+    margin: 20px;
+    overflow: hidden;
+}
+
+/*flex-box section*/
+#grid-flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    overflow: hidden;
+}
+
+
+/* for responsive */
+@media only screen and (max-width: 600px) {
+/* grid floats */
+#grid-floats .grid-item { 
+        width: 95%;
+    }
+ /* grid flex */    
+#grid-flex .grid-item {
+        flex-basis: 95%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+/* grid floats */
+#grid-floats .grid-item { 
+        width: 22%;
+    }
+
+#grid-floats .grid-item:nth-child(1){
+    	width: 50%;
+  }
+  
+ /* grid flex */  
+#grid-flex .grid-item {
+        flex-basis: 22%;
+    }
+#grid-flex .grid-item:nth-child(1) {
+     	flex-basis: 50%;
+ }
+}
+
+@media only screen and (min-width: 1025px) {
+/* grid floats */
+   #grid-floats .grid-item{
+        width: 20%;
+        overflow: hidden;
+        margin-left: 5px;
+  }
+#grid-floats .grid-item:nth-child(1) {
+    width: 39%;
+}
+
+/*grid flex*/
+  #grid-flex .grid-item{
+    width: 20%;
+    margin-left: 10px;
+  }
+#grid-flex .grid-item:nth-child(1) {
+    flex-basis: 40%;
+}
+}

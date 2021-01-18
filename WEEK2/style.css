@@ -24,6 +24,9 @@ h1, h2, h3{
 h1{
     color:rgb(228, 171, 171);
 }
+h2{
+    color: yellow;
+}
 h3{
     color: red;
 }

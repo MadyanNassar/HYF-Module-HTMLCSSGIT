@@ -147,3 +147,37 @@ footer{
       border-radius: 5%;
       margin-top: 30px;
 }
+
+
+@media only screen and (max-width:1023px){
+header{
+    flex-direction: column;
+    max-width: 98%;
+    margin: 40px auto;
+}
+h1,p{
+    text-align: center;
+}
+img{
+    border-radius: 5px;
+    order: 1;
+    align-items: center;
+    margin: 0 auto;
+}
+header div{
+    order: 2;
+    align-items: center;
+    margin: 20px auto;
+}
+header p{
+    margin:5px auto;
+}
+
+section{
+        width: 100%;
+    }
+ .left_title{
+     margin-left: -20px;
+     font-size: 20px;
+ }
+}

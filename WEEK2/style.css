@@ -52,11 +52,11 @@ img{
     border: 1px solid #dce0e3;
     margin-top: 30px;
     margin-bottom: 30px;
-    border: 1px dashed blue;
+    border: 1px solid blue;
     border-radius: 5px;
 }
 img:hover{
-    border: none;
+    border: 2px solid yellow;
     transform: rotate(10deg); /*https://www.w3schools.com/cssref/css3_pr_transform.asp*/
 }
 

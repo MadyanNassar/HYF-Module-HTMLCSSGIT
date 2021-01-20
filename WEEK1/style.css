@@ -11,7 +11,7 @@ body{
     margin: 50px auto;
     background-color:  rgb(211, 211, 233);
 }
-h1,h2{
+h1,h2,h3{
     font-family: cursive;
     text-align: left;
     padding-left: 30px;
@@ -101,7 +101,7 @@ background-color: #b5b1b1;
 }
 
 /*styling the titles (EDUCATION,EXPERIENCE and SKILLS by floating them to left*/
-.left_title{
+section h2{
     width: 22%;
     float: left;
     align-items: center;

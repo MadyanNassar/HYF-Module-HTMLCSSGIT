@@ -49,6 +49,7 @@ img{
   border-radius: 15px;
 }
 img:hover{
+  width:90%;
   border: 2px solid yellow;
   transform: rotate(5deg); /*https://www.w3schools.com/cssref/css3_pr_transform.asp*/
 }
@@ -76,8 +77,8 @@ img:hover{
   /* grid floats */
   #grid-floats .grid-item { 
           float: none;
-          width: 95%;
-          margin: 10px auto;
+          width: 90%;
+          margin: 20px auto;
       }
    /* grid flex */    
   #grid-flex .grid-item {
@@ -91,7 +92,7 @@ img:hover{
             width: 22.5%;
         }
     #grid-floats .grid-item:nth-child(1),#grid-floats .grid-item:nth-child(2){
-          width: 38%;
+          width: 37.5%;
       }
   
      /* grid flex */  
@@ -110,7 +111,7 @@ img:hover{
               margin-right: 5px;
         }
       #grid-floats .grid-item:nth-child(1),#grid-floats .grid-item:nth-child(2) {
-          width: 43.5%;
+          width: 44.5%;
       }
       
       /*grid flex*/

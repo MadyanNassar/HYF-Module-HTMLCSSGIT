@@ -111,7 +111,7 @@ img:hover{
               margin-right: 5px;
         }
       #grid-floats .grid-item:nth-child(1),#grid-floats .grid-item:nth-child(2) {
-          width: 44.5%;
+          width: 43.5%;
       }
       
       /*grid flex*/

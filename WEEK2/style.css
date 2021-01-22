@@ -6,7 +6,7 @@
     font-family: Arial, Helvetica, sans-serifs;
   }
   body {
-    background: linear-gradient(to bottom, rgb(114, 97, 97), rgb(27, 25, 25));
+    background: linear-gradient(to bottom, rgb(204, 196, 196), rgb(27, 25, 25));
     font-family: 'Oregano', cursive;
     margin: 0 auto;
   }
@@ -18,15 +18,18 @@ section{
 h1, h2, h3{
   text-align: center;
   padding: 20px;
+  font-weight: bold;
 }
 h1{
-  color:rgb(228, 171, 171);
+  color:rgb(75, 3, 42);
 }
 h2{
-  color: yellow;
+  color: rgb(23, 26, 23);
+  font-style: italic;
+  text-decoration: underline;
 }
 h3{
-  color: red;
+  color: rgb(17, 0, 255);
 }
 p{
   text-align: center;
@@ -42,6 +45,7 @@ li {
   border: 1px solid red;
   background-color: white;
   border-radius: 5px;
+  box-shadow: 5px 5px 5px #d2e3f1;
 }
 img{
   width:100%;
@@ -50,7 +54,7 @@ img{
 }
 img:hover{
   width:90%;
-  border: 2px solid yellow;
+  border: 2px dashed yellow;
   transform: rotate(5deg); /*https://www.w3schools.com/cssref/css3_pr_transform.asp*/
 }
 
@@ -110,7 +114,7 @@ img:hover{
               overflow: hidden;
               margin-right: 5px;
         }
-      #grid-floats .grid-item:nth-child(1),#grid-floats .grid-item:nth-child(2) {
+      #grid-floats .grid-item:nth-child(1){
           width: 43.5%;
       }
       
@@ -119,7 +123,7 @@ img:hover{
           width: 20%;
           margin-left: 10px;
         }
-      #grid-flex .grid-item:nth-child(1),#grid-flex .grid-item:nth-child(2) {
+      #grid-flex .grid-item:nth-child(1){
           flex-basis: 45%;
       }
       }

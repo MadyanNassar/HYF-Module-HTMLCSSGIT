@@ -12,5 +12,9 @@
    <h2>Home work for week2</h2>
    <a href="https://madyannassar.github.io/HYF-Module-HTMLCSSGIT/WEEK2/index.html"> Drone Website </a>
    
+   <hr>
+   <h2>Home work for week3</h2>
+   <a href="https://madyannassar.github.io/HYF-Module-HTMLCSSGIT/WEEK3/Uber-website/index.html"> rebuild uber homepage </a>
+   
   </body>
   </html>

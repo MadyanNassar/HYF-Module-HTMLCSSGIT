@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+nav{
+  background-color: black;
+  align-items: center;
+  max-width: 100%;
+  box-shadow: none;
+}
+.gray-hover:hover{
+  background-color: gray;
+}
+.brand-logo{
+      margin-left:2.5rem;
+  }
+.right{
+    margin-right: 2.5rem;
+}
+.right .sign-up{
+    height: 2.5em;
+    border-radius: 40%;
+    background-color: white;
+    color: black;
+}
+.section1 {
+    background-image: url('images/uber-man.jpg');
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    width: 100%;
+    padding: 64px;
+  }
+  .nav-bar {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    flex-wrap: nowrap;
+  }
+  .nav-extended {
+    background: white;
+    box-shadow: none;
+    border-bottom: 1px solid lightgrey;
+  }
+  .nav-extended ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+  .nav-extended ul li a {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+  }
+  .nav-extended ul li a:hover {
+    color: gray;
+  }
+  .left_description {
+    width: 40%;
+    background-color: white;
+    margin-left:5%;
+    padding: 50px;
+  }
+  .left_description h1 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+  }
+  .left_description p {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+.uber-cities {
+    width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-image: url('images/transport.png');
+    height: 600px;
+  }
+.uber-cities-text{
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+.uber-cities-text h2 {
+    margin-top: 0px;
+    padding-top: 40px;
+    color: black;
+    line-height: 44px;
+    font-weight: bold;
+    font-size: 36px;
+  }
+.uber-cities-text p{
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 1.5em;
+  }
+.uber-business {
+    padding-top: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+.business {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+.business1, .business2, .business3{
+      width: 30%;
+  }
+.uber-business h2{
+    margin-top: 0px;
+    padding-top: 40px;
+    color: black;
+    line-height: 44px;
+    font-weight: bold;
+    font-size: 36px;
+}
+.uber-business p{
+      text-align: left;
+      margin-bottom: 40px;
+      font-size: 1.5em;
+  }
+  .uber-safety{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .uber-safety h2{
+    margin-top: 0px;
+    padding-top: 40px;
+    color: black;
+    line-height: 44px;
+    font-weight: bold;
+    font-size: 36px;
+}
+.uber-safety p{
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 1.2em;
+}
+.uber-safety img{
+    margin-top: 90px;
+}
+.about{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+    text-align: left;
+}
+.about h3{
+    text-align: left;
+    margin-top: -15px;
+    padding-top: 40px;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+.about p{
+    margin-bottom: 40px;
+    font-size: 1.2em;
+    width: 80%;
+}
+footer{
+    color: white;
+    background-color: black;
+}
+footer p{
+    padding-left: 100px;
+    padding-top: 5px;
+}
+footer .logo{
+
+    font-size: 2.5em;
+}
+footer li{
+    line-height: 4;
+}
+footer li a{
+    text-decoration: none;
+    color: white;
+}
+footer li a:hover{
+  color:gray
+}
+.footer-flex{
+    display: flex;
+  justify-content: space-around;
+  width: 90%;
+  flex-wrap: wrap;
+}
+.footer-bottom{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.footer-right-bottom{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+}

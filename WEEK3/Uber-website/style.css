@@ -221,3 +221,63 @@ footer li a:hover{
     width: 20%;
     justify-content: space-evenly;
 }
+
+
+/*Responsive Design*/
+
+@media only screen and (max-width: 1024px){
+
+  header .brand-logo{
+    text-align: center;
+    margin-left: -15px;
+  }
+  p{
+    font-size: 12px;
+  }
+  .section1{
+    background-image: none;
+    background-color: rgb(238, 197, 131);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .section1 .nav-bar{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section1 .left_description{
+    width:100%;
+    margin: 0 auto;
+  }
+ .uber-cities h2,p{
+  font-size: 2rem;
+  }
+  .uber-business h2,p{
+    font-size: 2rem;
+  }
+  .business h3,p{
+    font-size: 2rem;
+  }
+  .business img{
+    width: 100%;
+  }
+  .uber-safety{
+    flex-direction: column;
+  }
+  .uber-safety .uber-safety-img{
+    order: -1;
+  }
+  footer h3,p{
+    font-size: 1.5rem;
+  }
+  footer .footer-bottom{
+    margin-left: -35px;
+  }
+  footer .footer-right-bottom{
+width: 40%;
+  }
+  footer .footer-right-bottom p, footer .footer-bottom p{
+    font-size: 1rem;
+  }
+} 

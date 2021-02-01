@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
   }
+
 nav{
   background-color: black;
   align-items: center;
@@ -27,13 +28,12 @@ nav{
     background-color: white;
     color: black;
 }
-.section1 {
+.uber_services {
     background-image: url('images/uber-man.jpg');
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
     font-family: sans-serif;
-    width: 100%;
     padding: 64px;
   }
   .nav-bar {
@@ -49,6 +49,9 @@ nav{
     background: white;
     box-shadow: none;
     border-bottom: 1px solid lightgrey;
+    overflow: auto;
+    white-space: nowrap;
+    width: 100%;
   }
   .nav-extended ul {
     display: flex;
@@ -119,7 +122,7 @@ nav{
     justify-content: space-between;
   }
 .business1, .business2, .business3{
-      width: 30%;
+      width: 25%;
   }
 .uber-business h2{
     margin-top: 0px;
@@ -226,32 +229,51 @@ footer li a:hover{
 /*Responsive Design*/
 
 @media only screen and (max-width: 1024px){
-
+  .nav-wrapper{
+    margin-bottom: 0;
+  }
   header .brand-logo{
     text-align: center;
-    margin-left: -15px;
+    margin: 0 auto;
   }
   p{
     font-size: 12px;
   }
-  .section1{
+  .uber_services{
     background-image: none;
-    background-color: rgb(238, 197, 131);
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     width: 100%;
+    margin: 0;
+    padding: 0;
   }
-  .section1 .nav-bar{
+  .uber_services .nav-bar{
     width: 100%;
+    margin-top: 0;
     margin-bottom: 10px;
   }
-  .section1 .left_description{
+  .uber_services .left_description{
     width:100%;
     margin: 0 auto;
   }
+  .mobile-image{
+    background-image: url(images/mobile-image.jpg);
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
  .uber-cities h2,p{
   font-size: 2rem;
+  }
+  .business, .about {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+.business1, .business2, .business3, .aboutus, .newsroom, .global-citizenship{
+      width: 48%;
   }
   .uber-business h2,p{
     font-size: 2rem;
@@ -268,16 +290,24 @@ footer li a:hover{
   .uber-safety .uber-safety-img{
     order: -1;
   }
+  .uber-safety .uber-safety-img img{
+  width: 100%;
+  }
   footer h3,p{
     font-size: 1.5rem;
   }
-  footer .footer-bottom{
-    margin-left: -35px;
+  .footer-flex{
+    width: 100%;
   }
-  footer .footer-right-bottom{
-width: 40%;
+  .footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
   footer .footer-right-bottom p, footer .footer-bottom p{
     font-size: 1rem;
+  }
+  footer p{
+    padding-left: 6px;
   }
 } 

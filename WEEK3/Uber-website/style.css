@@ -264,7 +264,7 @@ footer li a:hover{
     background-repeat: no-repeat;
   }
  .uber-cities h2,p{
-  font-size: 2rem;
+  font-size: 1.5rem;
   }
   .business, .about {
     display: flex;
@@ -276,10 +276,10 @@ footer li a:hover{
       width: 48%;
   }
   .uber-business h2,p{
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .business h3,p{
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .business img{
     width: 100%;

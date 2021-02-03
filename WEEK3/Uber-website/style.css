@@ -16,9 +16,14 @@ nav{
 .gray-hover:hover{
   background-color: gray;
 }
-.brand-logo{
-      margin-left:2.5rem;
-  }
+a.brand-logo{
+  display: block;
+  width: 100px;
+  display: none;
+}
+.logo{
+  font-size: .75rem;
+}
 .right{
     margin-right: 2.5rem;
 }
@@ -137,6 +142,9 @@ nav{
       margin-bottom: 40px;
       font-size: 1.5em;
   }
+  .business-image{
+    width: 100%;
+  }
   .uber-safety{
     display: flex;
     justify-content: space-evenly;
@@ -184,6 +192,7 @@ nav{
     width: 80%;
 }
 footer{
+  margin: 0 auto;
     color: white;
     background-color: black;
 }
@@ -228,13 +237,14 @@ footer li a:hover{
 
 /*Responsive Design*/
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 992px){
   .nav-wrapper{
     margin-bottom: 0;
   }
   header .brand-logo{
     text-align: center;
     margin: 0 auto;
+    display: block;
   }
   p{
     font-size: 12px;
@@ -248,10 +258,10 @@ footer li a:hover{
     margin: 0;
     padding: 0;
   }
-  .uber_services .nav-bar{
+  .nav-bar .nav-extended ul li{
     width: 100%;
-    margin-top: 0;
-    margin-bottom: 10px;
+    overflow: auto;
+    white-space:nowrap;
   }
   .uber_services .left_description{
     width:100%;
@@ -303,6 +313,9 @@ footer li a:hover{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+  }
+  .footer-right-bottom,.footer-left-bottom{
+   flex-basis: 45%;
   }
   footer .footer-right-bottom p, footer .footer-bottom p{
     font-size: 1rem;

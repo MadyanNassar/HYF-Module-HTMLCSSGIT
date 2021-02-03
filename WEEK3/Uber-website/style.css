@@ -225,7 +225,7 @@ footer li a:hover{
     padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 80%;
     flex-wrap: wrap;
 }
 .footer-right-bottom{
@@ -315,7 +315,7 @@ footer li a:hover{
     flex-wrap: wrap;
   }
   .footer-right-bottom,.footer-left-bottom{
-   flex-basis: 45%;
+   width: 30%;
   }
   footer .footer-right-bottom p, footer .footer-bottom p{
     font-size: 1rem;

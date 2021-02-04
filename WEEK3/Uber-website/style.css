@@ -259,10 +259,8 @@ footer li a:hover{
     margin: 0;
     padding: 0;
   }
-  .nav-bar .nav-extended ul li{
-    width: 100%;
-    overflow: auto;
-    white-space:nowrap;
+  .nav-bar .nav-extended ul{
+    width: 190%;
   }
   .uber_services .left_description{
     width:100%;
@@ -270,9 +268,12 @@ footer li a:hover{
   }
   .mobile-image{
     background-image: url(images/mobile-image.jpg);
-    height: 100vh;
+    height: 40vh;
     background-size: 100%;
     background-repeat: no-repeat;
+  }
+  .uber-cities-text{
+    width: 80%;
   }
  .uber-cities h2,p{
   font-size: 1.5rem;
@@ -303,6 +304,9 @@ footer li a:hover{
   }
   .uber-safety .uber-safety-img img{
   width: 100%;
+  }
+  .the-last-black-div{
+    margin-left: 15px;
   }
   footer h3,p{
     font-size: 1.5rem;
